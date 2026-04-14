@@ -1,0 +1,24 @@
+title: "AI Tools Hub"
+description: "Honest reviews and comparisons of the best AI tools in 2026"
+url: "https://YOUR_USERNAME.github.io"
+baseurl: "/aitools-site"
+
+# SEO
+author: "AI Tools Hub"
+lang: en
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:categories/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Collections
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
